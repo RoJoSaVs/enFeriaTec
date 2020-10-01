@@ -1,0 +1,18 @@
+[
+    {
+        "name": "yuca",
+        "category": "tuberculo",
+        "picture": "url",
+        "cost": 1000,
+        "sellMode": "kg",
+        "amount": 10 
+    },
+    {
+        "name": "manzana",
+        "category": "fruta",
+        "picture": "url",
+        "cost": 500,
+        "sellMode": "kg",
+        "amount": 50 
+    }
+]

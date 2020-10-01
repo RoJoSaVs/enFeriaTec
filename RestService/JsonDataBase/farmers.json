@@ -1,0 +1,35 @@
+[
+  {
+    "id" : 10,
+    "name" : "Ronny",
+    "lastName" : "Santamaria",
+    "address" : "Turrialba",
+    "phone" : 8545,
+    "sinpe" : 7006,
+    "places" : "Suiza",
+    "userName" : "RoJo_Savs",
+    "password" : 1234
+  },
+  {
+    "id" : 11,
+    "name" : "Aaron",
+    "lastName" : "Santamaria",
+    "address" : "Turrialba",
+    "phone" : 5978,
+    "sinpe" : 1005,
+    "places" : "Suiza",
+    "userName" : "RipHunter",
+    "password" : 4321
+  },
+  {
+    "id" : 13,
+    "name" : "Andres",
+    "lastName" : "Santamaria",
+    "address" : "Turrialba",
+    "phone" : 2007,
+    "sinpe" : 2005,
+    "places" : "Norte",
+    "userName" : "levelz",
+    "password" : 2134
+  }
+]
