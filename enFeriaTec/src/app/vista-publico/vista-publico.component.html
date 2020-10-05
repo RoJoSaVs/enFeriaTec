@@ -2,13 +2,14 @@
     <br>
     <br>
         <div class="col-6 mx-auto">
-            <a class="btn btn-primary btn-lg btn-block" href="#" role="button">Gestión de clientes </a> 
+            <a class="btn btn-success btn-lg btn-block" href="#" role="button">Gestión de clientes </a> 
       </div>  
     <br>
     <br>
       <div class="col-6 mx-auto">
-        <a class="btn btn-primary btn-lg btn-block" href="#" role="button">Log in </a> 
+        <a class="btn btn-success btn-lg btn-block"  [routerLink]="['form']" role="button">Log in </a> 
+        <router-outlet></router-outlet>
       </div>
 </div>
 
-<router-outlet></router-outlet>
+
