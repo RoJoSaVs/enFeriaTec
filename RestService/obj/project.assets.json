@@ -52,26 +52,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ronny\\.nuget\\packages\\": {}
+    "C:\\Users\\Pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj",
+      "projectUniqueName": "c:\\Users\\Pc\\Desktop\\enFeriaTec\\RestService\\RestService.csproj",
       "projectName": "RestService",
-      "projectPath": "C:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj",
-      "packagesPath": "C:\\Users\\ronny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ronny\\Desktop\\Programs\\RestService\\obj\\",
+      "projectPath": "c:\\Users\\Pc\\Desktop\\enFeriaTec\\RestService\\RestService.csproj",
+      "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Pc\\Desktop\\enFeriaTec\\RestService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ronny\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -12,6 +12,7 @@ import { ProductsComponent } from './products/products.component';
 import { ClientsComponent } from './clients/clients.component';
 import { GestionClientesComponent } from './gestion-clientes/gestion-clientes.component';
 import { ClientViewComponent } from './client-view/client-view.component';
+import { SolicitudclientesComponent } from './solicitudclientes/solicitudclientes.component';
 
 const routes: Routes = [
   { path: '', component: MainPageComponent},
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'productos', component: ProductsComponent},
   { path: 'solicitud', component: SolicitudComponent},
   { path: 'gestion-clientes', component: GestionClientesComponent},
+  { path: 'solicitudclientes', component: SolicitudclientesComponent},
   { path: 'afiliaciones-pendientes', component: ClientsComponent},
   { path: 'publico', component: VistaPublicoComponent,
     children: [

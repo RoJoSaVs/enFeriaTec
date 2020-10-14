@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ntsHVq8wPcT4/xFGDv2RZb4uOEoXVhf22t2YTofS1UufR12Xhe95uWsvKfMC/NHz9hIoeTljzq8tFGdEIiqU9w==",
+  "dgSpecHash": "qGb+RfvW+Wl6GyrAlvr53Y3t7zIWieHk8MOopSGsF2G/VKTxLsHjvzAXuoJlc+UDFOLK7e6WW8i6uJgIijCERQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj",
+  "projectFilePath": "c:\\Users\\Pc\\Desktop\\enFeriaTec\\RestService\\RestService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ronny\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Pc\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

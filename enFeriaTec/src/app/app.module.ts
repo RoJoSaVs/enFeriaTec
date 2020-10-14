@@ -16,6 +16,7 @@ import { SolicitudComponent } from './solicitud/solicitud.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductsComponent } from './products/products.component';
 import { GestionClientesComponent } from './gestion-clientes/gestion-clientes.component';
+import { SolicitudclientesComponent } from './solicitudclientes/solicitudclientes.component';
 
 
 
@@ -33,7 +34,8 @@ import { GestionClientesComponent } from './gestion-clientes/gestion-clientes.co
     FarmersComponent,
     SolicitudComponent,
     ProductsComponent,
-    GestionClientesComponent
+    GestionClientesComponent,
+    SolicitudclientesComponent
   
   ],
   imports: [
