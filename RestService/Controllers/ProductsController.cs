@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using Models;
 using Newtonsoft.Json;
+// using System.Web.Http;
+// using System.Web.Http.Cors;
 
 namespace Controllers{
     [Route("api/products")]

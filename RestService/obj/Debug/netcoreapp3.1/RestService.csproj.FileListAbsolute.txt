@@ -22,3 +22,4 @@ C:\Users\ronny\Desktop\Programs\RestService\bin\Debug\netcoreapp3.1\Newtonsoft.J
 c:\Users\ronny\Desktop\Programs\RestService\obj\Debug\netcoreapp3.1\RestService.csproj.CopyComplete
 C:\Users\ronny\Desktop\Programs\RestService\bin\Debug\netcoreapp3.1\JsonDataBase\farmers.json
 C:\Users\ronny\Desktop\Programs\RestService\bin\Debug\netcoreapp3.1\JsonDataBase\products.json
+C:\Users\ronny\Desktop\Programs\RestService\bin\Debug\netcoreapp3.1\JsonDataBase\clients.json
