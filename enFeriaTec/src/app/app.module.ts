@@ -11,8 +11,10 @@ import { VistaPublicoComponent } from './vista-publico/vista-publico.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { ClientViewComponent } from './client-view/client-view.component';
 import { GestionProductoresComponent } from './gestion-productores/gestion-productores.component';
-import { ProductosComponent } from './productos/productos.component';
 import { FarmersComponent } from './farmers/farmers.component';
+import { SolicitudComponent } from './solicitud/solicitud.component';
+import { ClientesComponent } from './clientes/clientes.component';
+
 
 
 @NgModule({
@@ -26,8 +28,9 @@ import { FarmersComponent } from './farmers/farmers.component';
     LoginFormComponent,
     ClientViewComponent,
     GestionProductoresComponent,
-    ProductosComponent,
-    FarmersComponent
+    FarmersComponent,
+    SolicitudComponent,
+    ClientesComponent,
   
   ],
   imports: [
