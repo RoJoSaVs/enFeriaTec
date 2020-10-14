@@ -1,0 +1,27 @@
+<br>
+<br>
+<br>
+<div class = "container">
+    <table class = "table  table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>NOMBRE</th>
+                <th>CATEGORIA</th>
+                <th>IMAGEN</th>
+                <th>PRECIO</th>
+                <th>MODO DE VENTA</th>
+                <th>CANTIDAD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products">
+                <td><span>{{product.name}}</span></td>
+                <td><span>{{product.category}}</span></td>
+                <td><span>{{product.picture}}</span></td>
+                <td><span>{{product.cost}}</span></td>
+                <td><span>{{product.sellMode}}</span></td>
+                <td><span>{{product.amount}}</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -8,6 +8,7 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { GestionProductoresComponent } from './gestion-productores/gestion-productores.component';
 import { FarmersComponent } from './farmers/farmers.component';
 import { SolicitudComponent } from './solicitud/solicitud.component';
+import { ProductsComponent } from './products/products.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'administrador', component: VistaAdministradorComponent},
   { path: 'gestionproductores', component: GestionProductoresComponent},
   { path: 'productores', component: FarmersComponent},
+  { path: 'productos', component: ProductsComponent},
   { path: 'solicitud', component: SolicitudComponent},
   { path: 'publico', component: VistaPublicoComponent,
     children: [

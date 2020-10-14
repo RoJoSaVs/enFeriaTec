@@ -14,6 +14,8 @@ import { GestionProductoresComponent } from './gestion-productores/gestion-produ
 import { FarmersComponent } from './farmers/farmers.component';
 import { SolicitudComponent } from './solicitud/solicitud.component';
 import { ClientesComponent } from './clientes/clientes.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductsComponent } from './products/products.component';
 
 
 
@@ -31,11 +33,13 @@ import { ClientesComponent } from './clientes/clientes.component';
     FarmersComponent,
     SolicitudComponent,
     ClientesComponent,
+    ProductsComponent
   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
