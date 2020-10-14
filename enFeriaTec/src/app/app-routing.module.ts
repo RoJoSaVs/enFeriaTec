@@ -9,16 +9,21 @@ import { GestionProductoresComponent } from './gestion-productores/gestion-produ
 import { FarmersComponent } from './farmers/farmers.component';
 import { SolicitudComponent } from './solicitud/solicitud.component';
 import { ProductsComponent } from './products/products.component';
-
+import { ClientsComponent } from './clients/clients.component';
+import { GestionClientesComponent } from './gestion-clientes/gestion-clientes.component';
+import { ClientViewComponent } from './client-view/client-view.component';
 
 const routes: Routes = [
   { path: '', component: MainPageComponent},
   { path: 'productor', component: VistaProductorComponent},
   { path: 'administrador', component: VistaAdministradorComponent},
+  { path: 'client-view', component: ClientViewComponent},
   { path: 'gestionproductores', component: GestionProductoresComponent},
   { path: 'productores', component: FarmersComponent},
   { path: 'productos', component: ProductsComponent},
   { path: 'solicitud', component: SolicitudComponent},
+  { path: 'gestion-clientes', component: GestionClientesComponent},
+  { path: 'afiliaciones-pendientes', component: ClientsComponent},
   { path: 'publico', component: VistaPublicoComponent,
     children: [
       { path: 'form', component: LoginFormComponent, },     

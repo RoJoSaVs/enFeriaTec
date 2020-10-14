@@ -1,0 +1,31 @@
+<br>
+<br>
+<br>
+<div class = "container">
+    <table class = "table  table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NOMBRE</th>
+                <th>APELLIDO</th>
+                <th>DIRECCION</th>
+                <th>FECHA DE NACIMIENTO</th>
+                <th>TELEFONO</th>
+                <th>USUARIO</th>
+                <th>PASSWORD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let client of clients">
+                <td><span>{{client.id}}</span></td>
+                <td><span>{{client.name}}</span></td>
+                <td><span>{{client.lastName}}</span></td>
+                <td><span>{{client.address}}</span></td>
+                <td><span>{{client.birthday}}</span></td>
+                <td><span>{{client.phone}}</span></td>
+                <td><span>{{client.userName}}</span></td>
+                <td><span>{{client.password}}</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

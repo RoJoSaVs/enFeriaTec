@@ -13,9 +13,9 @@ import { ClientViewComponent } from './client-view/client-view.component';
 import { GestionProductoresComponent } from './gestion-productores/gestion-productores.component';
 import { FarmersComponent } from './farmers/farmers.component';
 import { SolicitudComponent } from './solicitud/solicitud.component';
-import { ClientesComponent } from './clientes/clientes.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductsComponent } from './products/products.component';
+import { GestionClientesComponent } from './gestion-clientes/gestion-clientes.component';
 
 
 
@@ -32,8 +32,8 @@ import { ProductsComponent } from './products/products.component';
     GestionProductoresComponent,
     FarmersComponent,
     SolicitudComponent,
-    ClientesComponent,
-    ProductsComponent
+    ProductsComponent,
+    GestionClientesComponent
   
   ],
   imports: [
