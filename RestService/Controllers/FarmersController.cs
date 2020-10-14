@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using Models;
 using Newtonsoft.Json;
-using System.IO;
+using System;
 
 namespace Controllers{
     public class FarmerController : ControllerBase{
@@ -28,7 +28,26 @@ namespace Controllers{
         public int getSize(){
             string json = System.IO.File.ReadAllText(@"./JsonDataBase/farmers.json");
             dynamic array = JsonConvert.DeserializeObject(json);
+            // Console.WriteLine((array).ToString());
             return array.Count;
+        }
+
+        public void editFarmers(){
+            string json = System.IO.File.ReadAllText(@"./JsonDataBase/farmers.json");
+            dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
+            jsonObj[0]["name"] = "Ronny";
+            string output = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
+            System.IO.File.WriteAllText(@"./JsonDataBase/farmers.json", output);
+        }
+
+        public void addDataJsonFarmers(Farmers farmer){
+            string json = System.IO.File.ReadAllText(@"./JsonDataBase/farmers.json");
+            var list = JsonConvert.DeserializeObject<List<Farmers>>(json);
+            // list.Add(new Farmers(67,"Allan", "Calderon", "Cartago", 45, 15, "caca", "calquito", 12));
+            list.Add(farmer);
+            var convertedJson = JsonConvert.SerializeObject(list, Formatting.Indented);
+            System.IO.File.WriteAllText(@"./JsonDataBase/farmers.json", convertedJson.ToString());
+            
         }
     }
 

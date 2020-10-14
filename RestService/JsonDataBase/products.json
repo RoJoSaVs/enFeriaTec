@@ -14,5 +14,13 @@
         "cost": 500,
         "sellMode": "kg",
         "amount": 50 
+    },
+    {
+        "name": "naranja",
+        "category": "fruta",
+        "picture": "url",
+        "cost": 1000,
+        "sellMode": "kg",
+        "amount": 10 
     }
 ]

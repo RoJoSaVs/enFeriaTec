@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj": {}
+    "C:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj": {
+    "C:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj",
+        "projectUniqueName": "C:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj",
         "projectName": "RestService",
-        "projectPath": "c:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj",
+        "projectPath": "C:\\Users\\ronny\\Desktop\\Programs\\RestService\\RestService.csproj",
         "packagesPath": "C:\\Users\\ronny\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ronny\\Desktop\\Programs\\RestService\\obj\\",
+        "outputPath": "C:\\Users\\ronny\\Desktop\\Programs\\RestService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ronny\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ronny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
